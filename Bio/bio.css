@@ -1,0 +1,90 @@
+
+body{
+	color:white;
+	background-color:black;
+	font-family:Arial, Helvetica, Verdana, sans-serif;
+}
+header {
+  position: relative;
+	max-width: 1018px;
+	min-height: 194px;
+	padding-bottom: 16px;
+	margin: 0 auto;
+	background-image: url( 'banner.png' );
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+img {
+	/*! height: 15%; */
+  /*! width: 21%; */
+  /*! border-bottom-color: white; */
+  /*! padding-left: 15px; */
+  /*! padding-top: 15px; */
+}
+.wrapper{
+	position: relative;
+	background-image: url( 'banner2.png' );
+	background-position: center;
+	background-repeat: repeat-y;
+	padding: 0 12px 64px 12px;
+	width: 926px;
+	margin: 0 auto;
+	font-size: 13px;
+}
+#name{	
+	text-align: left;
+	display: inline-block;
+	font-size: 22px;
+	padding-left: 6px;
+	position: absolute;
+	top: 6px;
+}
+
+#age{
+	text-align: left;
+	display: inline;
+	font-size: 18px;
+	padding-left: 6px;
+	position: absolute;
+	top: 28px;
+}
+#location{
+	text-align: left;
+	display: inline;
+	font-size: 18px;
+	padding-left: 6px;
+	position: absolute;
+	top: 47px;
+}
+.comment{
+	position: relative;
+	padding-bottom: 8px;
+	padding-top: 8px;
+	margin-bottom: 8px;
+	min-height: 40px;
+	padding-left: 0px;
+	overflow: hidden;
+}
+#avatar{
+	width: 32px;
+	height: 32px;
+	padding: 1px;
+	border-radius: 0;
+	border: solid;
+}
+#avatarLarge{
+	width: 184px;
+	height: 184px;
+	padding: 1px;
+	border-radius: 0;
+	border: solid;
+}
+#commentPicture {
+  height: 300px;
+}	
+	
+	
+	
+	
+	
+	
